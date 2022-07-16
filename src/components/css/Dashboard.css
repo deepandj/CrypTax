@@ -1,0 +1,101 @@
+.dashboard-container {
+    text-align: left;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+.heading h1 {
+    text-transform: uppercase;
+    color: rgb(129, 125, 125);
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 20px;
+    letter-spacing: 5px;
+
+}
+
+.dashboard-body {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 65px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(129, 125, 125);
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.dashboard-body div {
+    margin:25px;
+   
+}
+
+.second-container {
+    padding: 15px;
+    border-radius: 50px;
+    border: 1px solid rgb(129, 125, 125);
+}
+
+.dashboard-body .image-container {
+    margin-left: 50px;
+    margin-right: 80px;
+    /* border-right:1px solid rgb(129, 125, 125) ; */
+}
+
+.dashboard-body .input-container{
+    margin-left: -25px;
+    margin-right: 50px;
+    border-left:1px solid rgb(129, 125, 125) ;
+}
+
+.dashboard-body .input-container input {
+    width:92%;
+    padding: 7px;
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.dashboard-body .input-container button {
+    width:150px;
+    height: 38px;
+    background-color: white;
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 25px;
+    
+}   
+
+.transaction-body{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 65px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(129, 125, 125);
+}
+
+.transaction-body tr {
+    display: flex;
+    margin-left: 7px;
+    margin-right: 25px;
+    padding:10px;
+}
+
+.transaction-body tr td {
+    display: flex;
+    padding:15px;
+
+    border: 1px solid rgb(129, 125, 125);
+    background-color:deepskyblue;
+    text-transform: capitalize;
+}
+
+.transaction-body .content {
+    margin-left: 45px;
+    width: 61%;
+}
+
+.transaction-body .title {
+    margin-left: 20px;
+    width: 33%;
+}

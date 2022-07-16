@@ -1,0 +1,69 @@
+.container{
+    background-color: #e2e8f0;
+    text-align: center;
+    margin-left: 43px;
+    margin-top: 150px;
+    padding-left: 36%;
+    padding-right: 36%;
+}
+
+.header-container{
+    border-radius: 15px;
+    border: 3px solid white ;
+}
+
+.app-name{
+    margin-top: 10px;
+    font-style: oblique;
+}
+
+.app-name h1 {
+    font-weight: bolder;
+    font-size: larger;
+    color: blue;
+}
+
+.choices{
+    padding: 10px;  
+    border-bottom: 3px solid white;  
+    border-radius: 15px;
+}
+
+.choices button {
+    font-weight:600;
+    padding: 10px;
+    margin-left: 32px;
+    margin-right: 32px;
+    color:coral;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.choices button:focus{
+    text-decoration: underline;
+    color:rgb(4, 94, 139)
+}
+
+.body-container{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.body-container form input{
+    width:92%;
+    padding: 7px;
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+.body-container form button {
+    padding: 10px;
+    color:white;
+    background-color: blue;
+    border-radius: 20px;
+    width: 40%;
+    margin-bottom: 10px;
+
+}
